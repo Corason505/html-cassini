@@ -40,7 +40,7 @@ hr {
 }
 
 a {
-    color: #EEEBDD;
+    #EEEBDD
 }
 
 .contact {
@@ -71,19 +71,6 @@ a {
     object-fit: contain;
 }
 
-.felho1 {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-    width: 15%;
-    height: 15%;
-    object-fit: contain;
-}
-.mo-img{
-    width: 27%;
-    height: 27%;
-    object-fit: contain;
-}
 .pfp {
     height: 200px;
     width: 200px;
@@ -129,4 +116,27 @@ a {
 .btn:hover {
     background: #CE1212;
     text-decoration: none;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #EEEBDD;
+  color: #191A19;
 }
