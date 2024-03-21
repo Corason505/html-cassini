@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassini</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Sacramento&family=Sassy+Frass&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="topnav">
+		<a href="index.html">Rólunk</a>
+		<a href="Kviz.html" class="active">Kvíz</a>
+		<a href="Elérhetőségeink.html">Elérhetőségeink</a>
+		<a href="Jelentkezz.html">Jelentkezz most!</a>
+</div>
+<br>
+ <div id="quest">
+	<fieldset>
+		<legend>
+			Töltsd ki az alábbi mezőket.
+		</legend>
+		
+		<form method="post" action="klasz.php" method="post">
+        <h2>//KÉRDÉS 1</h2>
+		<p>Mennyire tudsz figyelni órák közben?</p>
+		
+		<img class="question" src="https://myviewboard.com/blog/wp-content/uploads/2020/08/MP0027-01-scaled.jpg" alt="ora">
+		<br>
+		 <input type="radio" name="figy" value="1"/>
+		<label>Nehezen</label>
+		<input type="radio"name="figy" value="2"/>
+		<label>Néha elkalandozom</label><br>
+		<input type="radio"name="figy" value="3"/>
+		<label>Nincs problémám a figyeléssel</label><br>
+		<hr class="kerdes">
+		<h2>//KÉRDÉS 2</h2>
+
+		<p>Vannak egy elképzelésed egy ideális karrierről?</p>
+		<img class="question" src="https://myviewboard.com/blog/wp-content/uploads/2020/08/MP0027-01-scaled.jpg" alt="ora"><br>
+		 <input type="radio" name="karrier" value="3"/>
+		<label>Van</label>
+		<input type="radio" name="karrier" value="0"/>
+		<label>Nincs</label><br>
+
+		<hr class="kerdes">
+		<h2>//KÉRDÉS 3</h2>
+
+		<p>Milyen állat tükrözi legjobban a tanulmányi életed?</p>
+		<img class="question" src="https://myviewboard.com/blog/wp-content/uploads/2020/08/MP0027-01-scaled.jpg" alt="ora"><br>
+		 <input type="radio" name="allat" value="2"/>
+		<label>Róka</label>
+		<input type="radio" name="allat" value="3"/>
+		<label">Farkas</label><br>
+		<input type="radio" name="allat" value="1"/>
+		<label">Strucc</label><br>
+		<br>
+		<input type="submit" class="btn" value="Submit">
+		</form>
+	</fieldset>
+ </div>
+	<br>
+</body>
+</html>
